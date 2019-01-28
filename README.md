@@ -13,3 +13,8 @@ The parameters for the impulse response functions are taken from climate model a
 In Bronselaer et. al. 2017 (GRL), this technique is used to calculate the oceanic antropogenic carbon inventory in 2011 that
 is due to a rise in atmospheric pCO2 prior to 1850. To calculate the oceanic carbon storage in 2011 due to a rise in CO2 from 1765 to 1850, the appropriate atmospheric pCO2 inout profile has the observed atmospheric pCO2 rise from 1765 to 1850, after which time the pCO2 is held constant from 1850 until 2011.
 
+MATLAB routine: Bronselaer_GRL_Cant.m
+Input data: 
+- Atmospheric pCO2 history: spline_merged_ice_core_yearly.csv
+- Oceanic pre-industrial impulse response function parameters: PI100fit.mat
+- Atmospheric pre-industrial impulse response function parameters: PI100fit_atm.mat
